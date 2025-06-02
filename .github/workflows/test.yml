@@ -1,0 +1,14 @@
+name: test
+run-name: ${{ github.actor }} is testing out GitHub Actions 
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: |
+          ps -ef
+          df
+          free
+          curl ifconfig.me
+          
