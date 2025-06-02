@@ -11,4 +11,5 @@ jobs:
           df
           free
           curl ifconfig.me
+          docker ps
           
